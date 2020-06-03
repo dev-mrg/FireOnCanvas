@@ -97,6 +97,16 @@ function random(min, max, decOrNot) {
      getImageData(0, 0, w, h)
   })
 
+  $('#up').on('click', function () {
+    fh+=10;
+      getImageData(0, 0, w, h)
+  })
+
+  $('#down').on('click', function () {
+    fh-=10;
+     getImageData(0, 0, w, h)
+  })
+
 
 const move = function(event){
 
